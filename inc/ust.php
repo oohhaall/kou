@@ -28,7 +28,7 @@
 	<div class="header"></div>
 	<div class="header_top">
 		<div class="ust_tek_menu">
-							<div class="wrapper">
+		<div class="wrapper">
 		<nav class="menu">
 			<ul>
 				<li><a href="#">Lisans</a></li>
