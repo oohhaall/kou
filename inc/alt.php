@@ -29,7 +29,7 @@
 </div>
 
  <script src="dist/js/swiper.min.js"></script>
-
+ 
     <!-- Initialize Swiper -->
     <script>
     var swiper = new Swiper('.swiper-container', {
@@ -39,5 +39,7 @@
         prevButton: '.swiper-button-prev',
     });
     </script>
+
+
 </body>
 </html>
