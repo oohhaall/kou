@@ -1,0 +1,81 @@
+.slider-track,.slider-handle {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+.slider-track {
+  float: left;
+  position: relative;
+  display: block;
+  width: 38px;
+  height: 18px;
+  background: #fafafa;
+  -webkit-border-radius: 9px;
+  border-radius: 9px;
+  border: 1px solid #ccc;
+  margin-right: 10px;
+  cursor: pointer;
+  -webkit-transition: all 0.1s ease-in-out;
+  -moz-transition: all 0.1s ease-in-out;
+  -o-transition: all 0.1s ease-in-out;
+  -ms-transition: all 0.1s ease-in-out;
+  transition: all 0.1s ease-in-out;
+}
+.slider-track:hover .slider-handle {
+  background: #ccc;
+}
+.slider-track .slider-handle {
+  -webkit-transition: all 0.13s ease-in-out;
+  -moz-transition: all 0.13s ease-in-out;
+  -o-transition: all 0.13s ease-in-out;
+  -ms-transition: all 0.13s ease-in-out;
+  transition: all 0.13s ease-in-out;
+  position: absolute;
+  top: 2px;
+  left: 2px;
+  width: 12px;
+  height: 12px;
+  -webkit-border-radius: 6px;
+  border-radius: 6px;
+  background: #e7e7e7;
+}
+.slider-track.acik_on {
+  background: #5ecf3b;
+  border: 1px solid #48ab2a;
+}
+.slider-track.acik_on:hover {
+  border-color: #5ecf3b;
+  background: #7ed962;
+}
+.slider-track.acik_on .slider-handle {
+  background: #fff;
+  left: 22px;
+}
+.list_active_control{display: block; float: right; margin-left: 10px}
+.full_galeri_list{/*display: none;*/}
+.grub_name{cursor: pointer;}
+.daha_fazla{margin-top: 30px;}
+.img-del{display: none;}
+.tarih_goster{cursor: pointer !important;}
+.on_p{display: none;}
+.tools{display: none;}
+.tools i{cursor: pointer;}
+.list_comp tr:hover .tools{display: inline-block;}
+.list_comp tr td{text-align: left;}
+.list_comp tr td:nth-child(1){text-align: center;  vertical-align: middle;}
+.border_bot{border-bottom:1px solid #f4f4f4;}
+
+.img_list a{margin-top: 3px;  display: inline-block;}
+.img_list img{width: 100px;}
+
+.tab_byt .tools{display: inline-block;}
+.picker_hide,.picker_hide2{display: none;}
+.image-picker img{height:322px;}
+ul.thumbnails.image_picker_selector li .thumbnail img {
+        height:322px; cursor: pointer; }
+.mozaik_dekor ul.thumbnails.image_picker_selector li .thumbnail img {
+        height:80px; cursor: pointer; }
+.mimari_renk .img_list img{ height: 80px;
+
+    overflow: hidden;
+    width: 80px;}

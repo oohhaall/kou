@@ -31,7 +31,7 @@
 			<span class="tarih">Kasım</span>
 			<ul>
 				<li>
-					<div class="sol_tarih"><span class="ay">Kasım</span><span class="gun">03</span><span class="yil">2016</span></div><div class="sag_icerik"><p>Kısa açıklama alanı uzunca olmalıki biraz açıklaması kolay olsun</p><span class="yazar">Öğr. Gör. Onur Gök</span></div>
+					<div class="sol_tarih"><span class="ay">Kasım</span><span class="gun">03</span><span class="yil">2016</span></div><div class="sag_icerik popup_page" l_id="5"><p>Kısa açıklama alanı uzunca olmalıki biraz açıklaması kolay olsun</p><span class="yazar">Öğr. Gör. Onur Gök</span></div>
 				</li>
 	<li>
 					<div class="sol_tarih"><span class="ay">Kasım</span><span class="gun">03</span><span class="yil">2016</span></div><div class="sag_icerik"><p>Kısa açıklama alanı uzunca olmalıki biraz açıklaması kolay olsun</p><span class="yazar">Öğr. Gör. Onur Gök</span></div>
