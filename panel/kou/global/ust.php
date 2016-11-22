@@ -162,7 +162,7 @@
             
             <li class="treeview" menu_id="duyurular" ust_menu="">
               <a href="#">
-                 <i class="fa fa-files-o"></i>
+                 <i class="fa  fa-bullhorn"></i>
                 <span>Duyurular</span>
                  <i class="fa fa-angle-left pull-right"></i>
               </a>
@@ -179,7 +179,7 @@
             </li>
               <li class="treeview" menu_id="personel" ust_menu="">
               <a href="#">
-                 <i class="fa fa-files-o"></i>
+                 <i class="fa  fa-users"></i>
                 <span>Personel</span>
                  <i class="fa fa-angle-left pull-right"></i>
               </a>
