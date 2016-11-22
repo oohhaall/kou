@@ -4,6 +4,7 @@
 	session_start();
 	$file_upload_path 	= "../../../resim/";
 	$file_read_path 	= "../resim/";
+	$img_read = "resim/";
 
 	$f_file_path = "../../../files/";
 	$f_file_read = "../files/";
@@ -17,6 +18,7 @@
 ,"de"=>"German","es"=>"Spanish","fr"=>"French","ru"=>"Russian","it"=>"Italian"
 */
 	$dil_text =array("tr"=>"Türkçe","en"=>"English");
+	$aylar = array(1=>"Ocak",2=>"Şubat",3=>"Mart",4=>"Nisan",5=>"Mayıs",6=>"Haziran",7=>"Temmuz",8=>"Ağustos",9=>"Eylül",10=>"Ekim",11=>"Kasım",12=>"Aralık");
 	
 date_default_timezone_set('Europe/Istanbul');
 

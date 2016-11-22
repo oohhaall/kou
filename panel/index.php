@@ -32,7 +32,7 @@ echo (isset($_SESSION["login"]) == "true")?"<script>window.location = 'panel.php
   <body class="hold-transition login-page">
     <div class="login-box">
       <div class="login-logo">
-        <a href="index2.html"><b>Müşteri</b> Panel</a>
+        <a href="index2.html"><b>Kontrol</b> Panel</a>
       </div><!-- /.login-logo -->
       <div class="login-box-body">
         <p class="login-box-msg">Yönetim paneli giriş ekranı</p>
@@ -47,11 +47,7 @@ echo (isset($_SESSION["login"]) == "true")?"<script>window.location = 'panel.php
           </div>
           <div class="row">
             <div class="col-xs-8">
-             <!-- <div class="checkbox icheck">
-                <label>
-                  <input type="checkbox"> Remember Me
-                </label>
-              </div>-->
+        
             </div><!-- /.col -->
             <div class="col-xs-4">
               <button type="submit" class="btn btn-primary btn-block btn-flat">Giriş</button>

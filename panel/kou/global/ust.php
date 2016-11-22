@@ -98,8 +98,7 @@
                   <li class="user-header">
                     <img src="dist/img/user2-160x160.jpg" class="img-circle" alt="User Image">
                     <p>
-                      Kullanıcı Bilgileri
-                      <small>Kayıt Tarihi</small>
+                      Kocaeli Üniversitesi
                     </p>
                   </li>
                   <!-- Menu Body -->
@@ -133,7 +132,7 @@
               <img src="kou/images/kou_logo.png" width="50px" alt="User Image">
             </div>
             <div class="pull-left info">
-              <p>Firma Adı</p>
+              <p>Kou Yönetici</p>
               <!-- Status -->
               <a href="#"><i class="fa fa-circle text-success"></i> Online</a>
             </div>
@@ -178,200 +177,20 @@
 
         
             </li>
-              <li class="treeview" menu_id="yapi_gerecleri" ust_menu="">
+              <li class="treeview" menu_id="personel" ust_menu="">
               <a href="#">
                  <i class="fa fa-files-o"></i>
-                <span>Yapı Gereçleri</span>
+                <span>Personel</span>
                  <i class="fa fa-angle-left pull-right"></i>
               </a>
-              <ul class="treeview-menu" menu_id="yapi_gerecleri" ust_menu="yapi_gerecleri">
-                  <li menu_id="yapi_gerecleri_list" ust_menu="yapi_gerecleri"><a href="panel.php?page=yapi_gerecleri_list"><i class="fa fa-circle-o"></i> Yapı Gereçleri Listesi</a></li>
+              <ul class="treeview-menu" menu_id="personel" ust_menu="personel">
+                  <li menu_id="ogretim_uyeleri" ust_menu="personel"><a href="panel.php?page=ogretim_uyeleri"><i class="fa fa-circle-o"></i> Öğretim Üyeleri</a></li>
+                  <li menu_id="ogretim_elemanlari" ust_menu="personel"><a href="panel.php?page=ogretim_elemanlari"><i class="fa fa-circle-o"></i> Öğretim Elemanları</a></li>
+                  <li menu_id="idari_personel" ust_menu="personel"><a href="panel.php?page=idari_personel"><i class="fa fa-circle-o"></i> İdari Personel</a></li>
               </ul>
               </li>
             
-            <li class="treeview" menu_id="mimari_cozumler" ust_menu="">
-              <a href="#">
-                 <i class="fa fa-files-o"></i>
-                <span>Mimari Çözümler</span>
-                 <i class="fa fa-angle-left pull-right"></i>
-              </a>
-              <ul class="treeview-menu" menu_id="mimari_cozumler" ust_menu="mimari_cozumler">
-                  <li menu_id="mimari_cozumler_list" ust_menu="mimari_cozumler"><a href="panel.php?page=mimari_cozumler_list"><i class="fa fa-circle-o"></i> Mimari Çözümler Listesi</a></li>
-                  <!--<li menu_id="mimari_cozum_ekle" ust_menu="mimari_cozumler"><a href="panel.php?page=mimari_cozum_ekle"><i class="fa fa-circle-o"></i> Mimari Çözüm Ekle</a></li>-->
-              </ul>
-              </li>
-              
-
-
-                 <li class="treeview" menu_id="katalog" ust_menu="">
-              <a href="#">
-                 <i class="fa fa-files-o"></i>
-                <span>Katalog</span>
-                 <i class="fa fa-angle-left pull-right"></i>
-              </a>
-              <ul class="treeview-menu" menu_id="katalog" ust_menu="katalog">
-                <li menu_id="katalog_list" ust_menu="katalog">
-                <a href="panel.php?page=katalog_list"><i class="fa fa-circle-o"></i> Katalog Listesi</a>
-                </li>
-
-              </ul>
-              </li>
            
-
-            <li class="treeview" menu_id="referans" ust_menu="">
-              <a href="#">
-                 <i class="fa fa-files-o"></i>
-                <span>Referanslar</span>
-                 <i class="fa fa-angle-left pull-right"></i>
-              </a>
-              <ul class="treeview-menu" menu_id="referans" ust_menu="referans">
-                  <li menu_id="referans_list" ust_menu="referans">
-                  <a href="panel.php?page=referans_list"><i class="fa fa-circle-o"></i> Referans Listesi</a>
-                  </li>
-                  <li menu_id="ref_kategori" ust_menu="referans">
-                  <a href="panel.php?page=ref_kategori"><i class="fa fa-circle-o"></i> Kategori</a>
-                  </li>
-                  <li menu_id="ref_ulke" ust_menu="referans">
-                  <a href="panel.php?page=ref_ulke"><i class="fa fa-circle-o"></i> Ülke</a>
-                  </li>
-                    <li menu_id="ref_sehir_up" ust_menu="referans">
-                  <a href="panel.php?page=ref_sehir_up"><i class="fa fa-circle-o"></i> Şehir Listesi</a>
-                  </li>
-              </ul>
-              </li>
-
-
-
-            <li class="treeview" menu_id="haberler" ust_menu="">
-              <a href="#">
-                 <i class="fa fa-files-o"></i>
-                <span>Haberler</span>
-                 <i class="fa fa-angle-left pull-right"></i>
-              </a>
-              <ul class="treeview-menu" menu_id="haberler" ust_menu="haberler">
-                  <li menu_id="haber_list" ust_menu="haberler">
-                  <a href="panel.php?page=haber_list"><i class="fa fa-circle-o"></i> Haber Listesi</a>
-                  </li>
-              </ul>
-              </li>
-
-                     <li class="treeview" menu_id="sss" ust_menu="">
-              <a href="#">
-                 <i class="fa fa-files-o"></i>
-                <span>SSS</span>
-                 <i class="fa fa-angle-left pull-right"></i>
-              </a>
-              <ul class="treeview-menu" menu_id="sss" ust_menu="sss">
-                  <li menu_id="sss_list" ust_menu="sss">
-                  <a href="panel.php?page=sss_list"><i class="fa fa-circle-o"></i> SSS Listesi</a>
-                  </li>
-              </ul>
-              </li>
-
-
-                           <li class="treeview" menu_id="kurumsal" ust_menu="">
-              <a href="#">
-                 <i class="fa fa-files-o"></i>
-                <span>Kurumsal</span>
-                 <i class="fa fa-angle-left pull-right"></i>
-              </a>
-              <ul class="treeview-menu" menu_id="kurumsal" ust_menu="kurumsal">
-                  <li menu_id="oduller" ust_menu="kurumsal">
-                  <a href="panel.php?page=oduller"><i class="fa fa-circle-o"></i> Ödüller</a>
-                  </li>
-                 <li menu_id="etkinlik_list" ust_menu="kurumsal">
-                  <a href="panel.php?page=etkinlik_list"><i class="fa fa-circle-o"></i> Etkinlikler</a>
-                  </li>
-
-<li menu_id="basinda_seranit_list" ust_menu="kurumsal">
-                  <a href="panel.php?page=basinda_seranit_list"><i class="fa fa-circle-o"></i> Basında Seranit</a>
-                  </li>
-
-<li menu_id="seranit_filmler" ust_menu="kurumsal">
-                  <a href="panel.php?page=seranit_filmler"><i class="fa fa-circle-o"></i> Seranit Filmler</a>
-                  </li>
-
-<li menu_id="basin_bulteni_list" ust_menu="kurumsal">
-                  <a href="panel.php?page=basin_bulteni_list"><i class="fa fa-circle-o"></i> Basın Bültenleri</a>
-                  </li>
-
-<li menu_id="sertifikalar" ust_menu="kurumsal">
-                  <a href="panel.php?page=sertifikalar"><i class="fa fa-circle-o"></i> Sertifikalar</a>
-                  </li>
-<li menu_id="bilgi_toplum_hizmetleri" ust_menu="kurumsal">
-                  <a href="panel.php?page=bilgi_toplum_hizmetleri"><i class="fa fa-circle-o"></i> Bilgi Toplum Hizmetleri</a>
-                  </li>
-              </ul>
-              </li> 
-
-                     <li class="treeview" menu_id="iletisim" ust_menu="">
-              <a href="#">
-                 <i class="fa fa-files-o"></i>
-                <span>İletişim Ayarları</span>
-                 <i class="fa fa-angle-left pull-right"></i>
-              </a>
-              <ul class="treeview-menu" menu_id="iletisim" ust_menu="iletisim">
-                  <li menu_id="iletisim_list" ust_menu="iletisim">
-                  <a href="panel.php?page=iletisim_list"><i class="fa fa-circle-o"></i> Departman Listesi</a>
-                  </li>
-                   <li menu_id="genel_ayarlar" ust_menu="iletisim">
-                  <a href="panel.php?page=genel_ayarlar"><i class="fa fa-circle-o"></i> Genel Ayarlar</a>
-                  </li>
-              </ul>
-              </li>
-              <li class="treeview" menu_id="satis_noktalari" ust_menu="">
-              <a href="#">
-                 <i class="fa fa-files-o"></i>
-                <span>Satış Noktaları</span>
-                 <i class="fa fa-angle-left pull-right"></i>
-              </a>
-              <ul class="treeview-menu" menu_id="satis_noktalari" ust_menu="satis_noktalari">
-                  <li menu_id="satisnoktalari_list" ust_menu="satis_noktalari">
-                  <a href="panel.php?page=satisnoktalari_list"><i class="fa fa-circle-o"></i> Satış Noktaları List</a>
-                  </li>
-                  <li menu_id="satis_ulke_list" ust_menu="satis_noktalari">
-                  <a href="panel.php?page=satis_ulke_list"><i class="fa fa-circle-o"></i> Ülke</a>
-                  </li>
-                  <li menu_id="satis_sehir_list" ust_menu="satis_noktalari">
-                  <a href="panel.php?page=satis_sehir_list"><i class="fa fa-circle-o"></i> Şehir</a>
-                  </li>
-
-                  <li menu_id="ilce_list" ust_menu="satis_noktalari">
-                  <a href="panel.php?page=ilce_list"><i class="fa fa-circle-o"></i> İlçe</a>
-                  </li>
-              </ul>
-              </li>
-
-
-         
-
-                           <li class="treeview" menu_id="eposta_listesi" ust_menu="">
-              <a href="panel.php?page=eposta_listesi">
-                 <i class="fa fa-files-o"></i>
-                <span>E-Posta Listesi</span>
-              </a>
-
-              </li>
-<!--
-            <li class="treeview" menu_id="biliyormusun" ust_menu="">
-              <a href="#">
-                 <i class="fa fa-files-o"></i>
-                <span>Bunları Biliyormusun</span>
-                 <i class="fa fa-angle-left pull-right"></i>
-              </a>
-              <ul class="treeview-menu" menu_id="biliyormusun" ust_menu="biliyormusun">
-                  <li menu_id="bunlari_biliyormusun" ust_menu="biliyormusun"><a href="panel.php?page=bunlari_biliyormusun"><i class="fa fa-circle-o"></i> İçerik Listesi</a></li>
-              </ul>
-
-            </li>
--->
-            <!-- <li class="treeview" menu_id="galeri" ust_menu="">
-              <a href="panel.php?page=galeri">
-                <i class="fa fa-file-image-o"></i>
-                <span>Galeri</span>
-                <span class="label pull-right bg-red count_inf"><?php echo $galeri_toplam; ?></span>
-              </a>
-            </li> -->
 
 
             <li class="header">Kullanıcı İşlemleri</li>

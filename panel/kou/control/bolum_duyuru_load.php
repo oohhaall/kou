@@ -20,7 +20,7 @@ $dt_table = "duyurular";
   foreach ($sor_slider->fetchAll() as $key => $value) {
 ?>
 
-                   <li id="<?php echo "list_update_".$value["id"]; ?>" sira='<?php echo $value["sira"]; ?>' m_id='<?php echo $value["id"]; ?>'>
+                   <li id="<?php echo "list_update_".$value["id"]; ?>"  m_id='<?php echo $value["id"]; ?>'>
                       <!-- drag handle -->
                       <!--<span class="handle">
                         <i class="fa fa-ellipsis-v"></i>

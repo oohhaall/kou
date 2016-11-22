@@ -1,15 +1,19 @@
-function scroll_slow_slider(scroll_id,height_id,form_id){  /// Açılacak olan form = scroll_id, yuksekligi alınacak div = height_id, Eklencek olan resmin formu form_id
+CKEDITOR.replaceAll("ck_edit");
+function scroll_slow_slider(scroll_id,height_id,form_id,type=0){  /// Açılacak olan form = scroll_id, yuksekligi alınacak div = height_id, Eklencek olan resmin formu form_id
   $("#"+form_id+" input[name='sid']").val("0");
- // $("#"+form_id+" input[name='slider_resim']").removeAttr("readonly");
 
     $.each( dil_text, function( key, value ) {
           $("img[name='on_"+key+"']").css("display","none");
           $("img[name='on_"+key+"']").attr("src","");
           $(".img_del_"+key).css("display","none");
           $("input[name='baslik_"+key+"']").val("");
-          $("input[name='aciklama_"+key+"']").val("");
+         // $("input[name='aciklama_"+key+"']").val("");
+          if(type==1){
+            CKEDITOR.instances["baslik_"+key].setData("");
+          }
 
     });
+
   if($("#"+scroll_id+" .box-primary").css("display") == "none"){
   	var height = $("#"+height_id).height();
 	  var f_height = $("#"+scroll_id).height();
@@ -25,9 +29,9 @@ function scroll_slow_slider(scroll_id,height_id,form_id){  /// Açılacak olan f
       //$("#"+form_id+" img").css("display","none");
   }
 
-       $("a[href='#slider_resim_tr']").click();
+        $("a[href='#slider_resim_tr']").click();
         $("a[href='#baslik_tr']").click();
-        $("a[href='#aciklama_tr']").click();
+       // $("a[href='#aciklama_tr']").click();
 }
 
 function slider_duzenle(scroll_id,item_id,height_id,form_id){
@@ -36,6 +40,7 @@ function slider_duzenle(scroll_id,item_id,height_id,form_id){
 
           $("input[name='baslik_"+key+"']").val($("g[type='"+key+"'][m_id='"+item_id+"']").html());
           //$("input[name='aciklama_"+key+"']").val($("i[type='"+key+"'][m_id='"+item_id+"']").html());
+            CKEDITOR.instances["baslik_"+key].setData($("g[type='"+key+"'][m_id='"+item_id+"']").html().trim());
 
     });
           $("input[name='link']").val($("u[m_id='"+item_id+"']").html().trim());
@@ -62,7 +67,7 @@ function slider_ekle(dis_div,form_id,info_field,close_field){
 
           $.each(dil_text, function( key, value ) {
               formData.append("slider_resim_"+key,$("#"+form_id+" input[type=file][name='slider_resim_"+key+"']")[0].files[0]);
-              formData.append("baslik_"+key,$("#"+form_id+" input[type=text][name='baslik_"+key+"']").val());
+              formData.append("baslik_"+key,CKEDITOR.instances["baslik_"+key].getData());
           });
               formData.append("link",$("#"+form_id+" input[type=text][name='link']").val());
 

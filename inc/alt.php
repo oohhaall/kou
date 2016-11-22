@@ -10,23 +10,26 @@
 			<div class="bilgi"><span class="baslik">E-posta: </span><span>bilgisayar@kocaeli.edu.tr</span></div>
 			<div class="bilgi"><span class="baslik">Web: </span><span>http://bilgisayar.kocaeli.edu.tr</span></div>
 		</div>
-		<div class="col-lg-3 col-md-3 footer_col"><h3>Kurumsal</h3>
+		<div class="col-lg-3 col-md-3 footer_col"><h3>Hakkımızda</h3>
 			<ul>
-				<li>Tarihçe</li>		
-				<li>Hakkımızda</li>		
-				<li>Misyon</li>		
-				<li>Vizyon</li>		
-				<li>Ana Bilim Dalları</li>		
-				<li>Program Çıktıları</li>		
+						<li><a href="tarihce.php">Tarihçe</a></li>
+						<li><a href="hakkimizda.php">Hakkımızda</a></li>
+						<li><a href="misyon.php">Misyon</a></li>
+						<li><a href="vizyon.php">Vizyon</a></li>
+						<li><a href="anabilimdallari.php">Ana Bilim Dalları</a></li>
+						<li><a href="programciktilari.php">Program Çıktıları</a></li>	
 			</ul>
 		</div>
 		
 	</div>
 
 	<div class="footer_bgs"></div>
-	<div class="col-md-12 col-lg-12 footer_foot">© 2015 Kocaeli Üniversitesi. Bütün hakları saklıdır</div>
+	<div class="col-md-12 col-lg-12 footer_foot">© <?php echo date("Y"); ?> Kocaeli Üniversitesi. Bütün hakları saklıdır</div>
 
 </div>
+<div class="overlay"></div>
+
+<script type="text/javascript" src="js/glob_script.js"></script>
 
  <script src="dist/js/swiper.min.js"></script>
  

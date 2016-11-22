@@ -174,8 +174,7 @@
                        foreach ($dil_text as $dil_key => $dil_val) {
                           $class = ($dil_key=="tr")?"active":NULL;  ?>
                              <div class="tab-pane <?php echo $class; ?>" id="baslik_<?php echo $dil_key; ?>">
-                                 <input type="text" name="baslik_<?php echo $dil_key; ?>" class="form-control" id="exampleInputEmail1" placeholder="<?php echo $dil_val; ?>">
-                                
+                                 <textarea name="baslik_<?php echo $dil_key; ?>" class="ck_edit"></textarea>
                          
                              </div><!-- /.tab-pane -->
                      <?php } ?>
@@ -196,12 +195,6 @@
 
                   
                     </div>
-                  <!--  <div class="form-group">
-                      <label for="exampleInputFile">File input</label>
-                      <input type="file" name="slider_resim" id="exampleInputFile" required="">
-                      <p class="help-block">Ana Slider için lütfen boyutları 400x400 olan bir resim seçin</p>
-                      <img width="150" height="100" src="" style="display:none;" alt="" class="margin">
-                    </div> -->
 
                   </div><!-- /.box-body -->
 

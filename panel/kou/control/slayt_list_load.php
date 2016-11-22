@@ -7,7 +7,7 @@ extract($_POST);
   
     $dt_table = "slider";
 
-                      $sor_slider = $db->prepare("SELECT * FROM $dt_table WHERE type='1' ORDER BY sira DESC LIMIT 0,$load_max");
+                      $sor_slider = $db->prepare("SELECT * FROM $dt_table ORDER BY sira DESC LIMIT 0,$load_max");
                      /// $sor_slider->bindValue(":num",$load_max);
                       $sor_slider->execute();
 
@@ -57,15 +57,7 @@ extract($_POST);
                                 }
                             ?>
 
-                         <?php
-                                foreach ($dil_text as $dil_key => $dil_val) {
-                                    $style = "style='display:none;'";
-                                  ?>
-                                  <i type="<?php echo $dil_key; ?>" m_id='<?php echo $value["id"]; ?>' <?php echo $style; ?>><?php echo $value["aciklama_".$dil_key]; ?></i>
-                                  <?php
-                                }
-                            ?>
-
+              
                             <u  m_id='<?php echo $value["id"]; ?>' style="display: none"><?php echo $value["link"]; ?></u>
 
 
